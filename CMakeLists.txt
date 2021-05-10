@@ -149,7 +149,7 @@ include_directories(SYSTEM "${EIGEN_INCLUDE_DIR}")
 #find_package(Eigen3 REQUIRED)
 #message("-- eigen3 , version ${EIGEN_VERSION}")
 
-find_package(LibQPEP REQUIRED PATHS /Users/zarathustra/git/LibQPEP/install)
+find_package(LibQPEP REQUIRED)
 message("The include directory of LibQPEP is: ${LibQPEP_INCLUDE_DIRS}")
 message("The linking directory of LibQPEP is: ${LibQPEP_LIBRARIES}")
 include_directories(${LibQPEP_INCLUDE_DIRS})
