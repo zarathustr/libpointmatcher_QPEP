@@ -24,6 +24,7 @@ set(libpointmatcher_LIBRARIES "@POINTMATCHER_LIB@;@libnabo_LIBRARIES@;@EXTERNAL_
 set(LIBPOINTMATCHER_LIBRARIES "@POINTMATCHER_LIB@;@libnabo_LIBRARIES@;@EXTERNAL_LIBS@;@Boost_LIBRARIES@;@LibQPEP_LIBRARIES@")
 set(pointmatcher_LIBRARIES "@POINTMATCHER_LIB@;@libnabo_LIBRARIES@;@EXTERNAL_LIBS@;@Boost_LIBRARIES@;@LibQPEP_LIBRARIES@")
 set(POINTMATCHER_LIBRARIES "@POINTMATCHER_LIB@;@libnabo_LIBRARIES@;@EXTERNAL_LIBS@;@Boost_LIBRARIES@;@LibQPEP_LIBRARIES@")
+message("LibPointMatcher Libraries: ${libpointmatcher_LIBRARIES}")
 
 # This causes catkin simple to link against these libraries
 set(libpointmatcher_FOUND_CATKIN_PROJECT true)
